@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경스타일</title>
+    <style>
+        body {
+            background: aqua;
+        }
+
+        #div-bg {
+            background: white;
+        }
+
+        .div-test {
+            background: white;
+            padding: 20px;
+            border: 5px dashed black;
+            width: 20%;
+            float: left;
+        }
+
+        #div1 {
+            background-clip: border-box;
+        }
+        #div2 {
+            background-clip: padding-box;
+        }
+        #div3 {
+            background-clip: content-box;
+        }
+        
+        .clearfloat {
+            clear: left;
+        }
+
+        #bg-img {
+            width: 70%;
+            height: 1600px;
+            border: 4px solid red;
+            background-image: url("../resources/images/flower1.PNG");
+
+            background-repeat: no-repeat;
+
+            background-size: cover;
+            background-size: contain;
+            background-size: auto;
+
+            background-attachment: fixed;
+            background-attachment: scroll;
+
+            background-position: 50% 50%;
+            background-position: 30px 50px;
+            background-position: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>배경색과 배경 이미지</h1>
+
+    <h3>div 배경 테스트</h3>
+    <div id="div-bg">
+        가는 없으면, 안고, 것이다. 피가 모래뿐일 대중을 약동하다. 역사를 꽃이 날카로우나 사는가 구하기 기쁘며, 그들을 이상, 아름다우냐? 그들은 인간이 있음으로써 부패를 용기가 풀이 무한한 있는 부패뿐이다. 평화스러운 품었기 그들의 그들은 바로 피가 타오르고 그리하였는가? 따뜻한 있을 가장 있음으로써 위하여서. 별과 튼튼하며, 심장의 능히 끝까지 원질이 작고 수 그리하였는가? 없는 놀이 보이는 사람은 속에서 피가 것이다. 찬미를 청춘의 실현에 얼마나 그리하였는가? 것이 행복스럽고 아니한 봄바람을 끓는다.
+    </div>
+
+    <h3>배경 적용 범위 조정</h3>
+    <div class="div-test" id="div1">
+        가는 없으면, 안고, 것이다. 피가 모래뿐일 대중을 약동하다. 역사를 꽃이 날카로우나 사는가 구하기 기쁘며, 그들을 이상, 아름다우냐? 그들은 인간이 있음으로써 부패를 용기가 풀이 무한한 있는 부패뿐이다. 평화스러운 품었기 그들의 그들은 바로 피가 타오르고 그리하였는가? 따뜻한 있을 가장 있음으로써 위하여서. 별과 튼튼하며, 심장의 능히 끝까지 원질이 작고 수 그리하였는가? 없는 놀이 보이는 사람은 속에서 피가 것이다. 찬미를 청춘의 실현에 얼마나 그리하였는가? 것이 행복스럽고 아니한 봄바람을 끓는다.
+    </div>
+        <div class="div-test" id="div2">
+        가는 없으면, 안고, 것이다. 피가 모래뿐일 대중을 약동하다. 역사를 꽃이 날카로우나 사는가 구하기 기쁘며, 그들을 이상, 아름다우냐? 그들은 인간이 있음으로써 부패를 용기가 풀이 무한한 있는 부패뿐이다. 평화스러운 품었기 그들의 그들은 바로 피가 타오르고 그리하였는가? 따뜻한 있을 가장 있음으로써 위하여서. 별과 튼튼하며, 심장의 능히 끝까지 원질이 작고 수 그리하였는가? 없는 놀이 보이는 사람은 속에서 피가 것이다. 찬미를 청춘의 실현에 얼마나 그리하였는가? 것이 행복스럽고 아니한 봄바람을 끓는다.
+    </div>
+        <div class="div-test" id="div3">
+        가는 없으면, 안고, 것이다. 피가 모래뿐일 대중을 약동하다. 역사를 꽃이 날카로우나 사는가 구하기 기쁘며, 그들을 이상, 아름다우냐? 그들은 인간이 있음으로써 부패를 용기가 풀이 무한한 있는 부패뿐이다. 평화스러운 품었기 그들의 그들은 바로 피가 타오르고 그리하였는가? 따뜻한 있을 가장 있음으로써 위하여서. 별과 튼튼하며, 심장의 능히 끝까지 원질이 작고 수 그리하였는가? 없는 놀이 보이는 사람은 속에서 피가 것이다. 찬미를 청춘의 실현에 얼마나 그리하였는가? 것이 행복스럽고 아니한 봄바람을 끓는다.
+    </div>
+
+    <hr class="clearfloat">
+    <h3>배경 이미지 테스트</h3>
+    <div id="bg-img"></div>
+    
+</body>
+</html>
